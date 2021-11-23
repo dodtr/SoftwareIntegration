@@ -85,6 +85,7 @@ ul li:hover a {
 }
 
 ul.topnav li {
+    font-size: 22px;
     list-style: none;
     float: left;
 }

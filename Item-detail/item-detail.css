@@ -20,6 +20,7 @@ nav ul {
 }
 
 ul.topnav li {
+  font-size: 22px;
   list-style: none;
   float: left;
 }
@@ -235,4 +236,29 @@ footer.footClass ul li {
   color: white;
   font-size: 22px;
   line-height: 1.2;;
+}
+
+/*Link color*/
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
 }
