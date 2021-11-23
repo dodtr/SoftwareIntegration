@@ -1,135 +1,138 @@
-nav, header, footer {
-    display: block;
+nav,
+header,
+footer {
+  display: block;
 }
 
 section {
-    transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 body {
-    line-height: 1;
-    margin: 0;
+  line-height: 1;
+  margin: 0;
 }
 
 nav {
-    width: 100%;
-    margin: 0;
+  width: 100%;
+  margin: 0;
 }
 
 nav ul {
-    background-color: #eee;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
+  background-color: #eee;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .sidebar {
-    position: fixed;
-    left: -230px;
-    width: 230px;
-    height: 100%;
-    background-color: gainsboro;
-    color: green;
-    transition: all .5s ease;/*create transition time in 0.5s*/
+  position: fixed;
+  left: -230px;
+  width: 230px;
+  height: 100%;
+  background-color: gainsboro;
+  color: green;
+  transition: all 0.5s ease; /*create transition time in 0.5s*/
 }
 
 .sidebar header {
-    font-size: 22px;
-    height: 70px;
-    line-height: 70px;
-    color: white;
-    text-align: center;
-    list-style: 70px;
-    background-color: rgb(39, 88, 248);
-    user-select: none;
+  font-size: 22px;
+  height: 70px;
+  line-height: 70px;
+  color: white;
+  text-align: center;
+  list-style: 70px;
+  background-color: rgb(39, 88, 248);
+  user-select: none;
 }
 
 .sidebar ul a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    line-height: 65px;
-    font-size: 20px;
-    color: rgb(39, 88, 248);
-    padding-left: 5px;
-    box-sizing: border-box;
-    border-top: 1px solid rbga(255, 255, 255, .1);
-    border-bottom: 1px solid black;
-    transition: .4s;/*make the button float when hover*/
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: rgb(39, 88, 248);
+  padding-left: 5px;
+  box-sizing: border-box;
+  border-top: 1px solid rbga(255, 255, 255, 0.1);
+  border-bottom: 1px solid black;
+  transition: 0.4s; /*make the button float when hover*/
 }
 
 ul li:hover a {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .title {
-    display: block;
-    text-decoration: none;
-    min-height: 30px;
-    text-align: center;
-    padding: 14px;
-    text-transform: uppercase;
-    color: #0069ff;
+  display: block;
+  text-decoration: none;
+  min-height: 30px;
+  text-align: center;
+  padding: 14px;
+  text-transform: uppercase;
+  color: #0069ff;
 }
 
 .imgbox {
-    display: grid;
-    height: 100%;
+  display: grid;
+  height: 100%;
 }
 .center-fit {
-    max-width: 100%;
-    max-height: 100vh;
-    margin: auto;
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
 }
 
 ul.topnav li {
-    list-style: none;
-    float: left;
+  font-size: 22px;
+  list-style: none;
+  float: left;
 }
 
 ul.topnav li.topnav-right {
-    float: right;
+  float: right;
 }
 
 ul.topnav li a {
-    display: block;
-    text-decoration: none;
-    min-height: 16px;
-    text-align: center;
-    padding: 14px;
-    text-transform: uppercase;
-    color: #666;
+  display: block;
+  text-decoration: none;
+  min-height: 16px;
+  text-align: center;
+  padding: 14px;
+  text-transform: uppercase;
+  color: #666;
 }
 
 ul.topnav li a:hover {
-    background-color: #0080ff;
-    color: white
+  background-color: #0080ff;
+  color: white;
 }
 
 ul.topnav li.dropdownIcon {
-    display: none;
+  display: none;
 }
 
 label {
-    font-size: 36px;
-    font-weight: 600;
+  font-size: 36px;
+  font-weight: 600;
 }
 
 p {
-    font-size: 25px;
-    line-height: 1.2;
+  font-size: 25px;
+  line-height: 1.2;
 }
 
 article {
-    font-size: 35px;
-    padding: 20px;
+  font-size: 35px;
+  padding: 20px;
 }
 
 .container {
-    width: 100%;
-    margin: auto;
-    padding-top: 4%;
-    padding-bottom: 4%;
+  width: 100%;
+  margin: auto;
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
     .container a{text-decoration: none; color: #0069ff;}
        
@@ -143,29 +146,29 @@ article {
 }
 
 button {
-    font-size: 32px;
-    font-weight: 700;
-    color: white;
-    background-color: #0069ff;
-    padding: 15px 60px;
-    display: block;
-    text-align: center;
-    margin: 5px;
-    border-radius: 7px;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  background-color: #0069ff;
+  padding: 15px 60px;
+  display: block;
+  text-align: center;
+  margin: 5px;
+  border-radius: 7px;
 }
 
 button.learnMore {
-    display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
 }
 
 .checkoutClass {
-    float: right;
+  float: right;
 }
 
 button.checkoutButtons {
-    display: inline-block;
-    font-size: 20px;
+  display: inline-block;
+  font-size: 20px;
 }
 
 .row::after {
@@ -188,37 +191,37 @@ button.checkoutButtons {
 .col-12 {width: 86%;}
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h1.larger {
-    color: #fff;
-    font-size: 56px;
-    margin: 0;
-    line-height: 70px;
+  color: #fff;
+  font-size: 56px;
+  margin: 0;
+  line-height: 70px;
 }
 
 form h2 {
-    color: #fff;
+  color: #fff;
 }
 
-input[type="text"]{
-    font-size: 20px;
-    width: 400px;
-    min-width: 100px;
-    padding: 5px;
-    border-radius: 7px;
+input[type="text"] {
+  font-size: 20px;
+  width: 400px;
+  min-width: 100px;
+  padding: 5px;
+  border-radius: 7px;
 }
 
-.videoContainer iframe{
-    position: relative;
-    width: 100%;
-    margin: 0;
+.videoContainer iframe {
+  position: relative;
+  width: 100%;
+  margin: 0;
 }
 
 h1.section2Header {
-    font-size: 65px;
-    text-align: center;
+  font-size: 65px;
+  text-align: center;
 }
 
 div.box {
@@ -237,96 +240,240 @@ div.icon {
 }
 
 footer.footClass {
-    background-color: #666;
-    padding-left: 10%;
+  background-color: #666;
+  padding-left: 10%;
 }
 
 footer.footClass h1 {
-    color: white;
-    font-size: 35px;
+  color: white;
+  font-size: 35px;
 }
 
 footer.footClass ul {
-    list-style: none;
-    text-align: left;
-    padding-left: 0;
+  list-style: none;
+  text-align: left;
+  padding-left: 0;
 }
 
 footer.footClass ul li {
-    color: white;
-    font-size: 22px;
-    line-height: 1.2;;
+  color: white;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+/*Slide show style*/
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  display: block;
+  text-align: center;
+  max-width: 100%;
+  position: relative;
+  top: 60px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  position: relative;
+  z-index: -1;
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  z-index: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /*Custom style*/
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 #section-1-gradient {
-    background-image: linear-gradient(#076DFF, #65a5ff);
+  background-image: linear-gradient(#076dff, #65a5ff);
 }
 
 div.left-col {
-    margin-left: 30%;
+  margin-left: 30%;
 }
 
 div.rightSide-Col {
-    margin-right: 5%;
+  margin-right: 5%;
 }
 
 /*MOBILE*/
 @media screen and (max-width: 680px) {
-    ul.topnav li:not(:nth-child(1)){
-        display: none;
-    }
-    ul.topnav li.dropdownIcon{
-        display: block;
-        float: right;
-    }
+  ul.topnav li:not(:nth-child(1)) {
+    display: none;
+  }
+  ul.topnav li.dropdownIcon {
+    display: block;
+    float: right;
+  }
 
-    ul.topnav.responsive li.dropdownIcon {
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
+  ul.topnav.responsive li.dropdownIcon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
 
-    ul.topnav.responsive {
-        position: relative;
-    }
-    
-    ul.topnav.responsive li{
-        display: inline;
-        float: none;
-    }
+  ul.topnav.responsive {
+    position: relative;
+  }
 
-    ul.topnav.responsive li a{
-        display: block;
-        text-align: left;
-    }
+  ul.topnav.responsive li {
+    display: inline;
+    float: none;
+  }
 
-    h1.section2Header {
-        font-size: 45px;
-    }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
 
-    .col-6, .col-4, .col-7 {
-        width: 100%;
-        margin: 0;
-    }
+  h1.section2Header {
+    font-size: 45px;
+  }
 
-    div.mobileRow {
-        width: 50%;
-        display: block;
-    }
-    
-    div.box {
-        padding: 5px;
-        display: block;
-    }
+  .col-6,
+  .col-4,
+  .col-7 {
+    width: 100%;
+    margin: 0;
+  }
 
-    div.left-col, div.rightSide-Col {
-        margin: 15px;
-    }
+  div.mobileRow {
+    width: 50%;
+    display: block;
+  }
 
-    input[type="text"] {
-        width: 350px;
+  div.box {
+    color: black;
+    padding: 5px;
+    display: block;
+  }
 
-    }
+  div.left-col,
+  div.rightSide-Col {
+    margin: 15px;
+  }
+
+  input[type="text"] {
+    width: 350px;
+  }
 }
-
