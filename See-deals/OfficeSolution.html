@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="deal.css">
+  <script src="../quanScript.js" defer></script>
+  <title>Office Solution</title>
+</head>
+<body>
+  <!-- this is the nav-bar -->
+  <nav style = "position:fixed">
+    <ul class="topnav" id="dropdownClick">
+        <li id="menu"><a href="#something">&#9776;</a></li>
+        <li class="title">MYCOMPUTER</li>
+        <li><a href="../home.html">Home</a></li>
+        <li><a href="#new">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li class="topnav-right"><a href="../login.html">user</a></li>
+        <li class="topnav-right"><a href="../cart.html">your cart</a></li>
+        <!--javascript:void(0) make path undefined, therefore make the menu stay when click-->
+        <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+    </ul>
+  </nav>
+
+  <div class="sidebar" id="side" style="margin-top: 43px;">
+    <ul id="list">
+        <li><a href="Component.html">Components</a></li>
+        <li><a href="ComputerSystem.html">Computer systems</a></li>
+        <li><a href="Electronic.html">Electronics</a></li>
+        <li><a href="Gaming.html">Gaming</a></li>
+        <li><a href="Networking.html">Networking</a></li>
+        <li><a href="Software.html">Software</a></li>
+        <li><a href="OfficeSolution.html">Office solutions</a></li>
+    </ul>
+  </div>
+  <!-- end -->
+
+  <!-- section for view items -->
+  <section id="sect">
+    <br><br><br>
+    <h2 id = "seperator">Office Solution</h2>
+
+    <div id = "item-list">
+      <div class="col-4">
+        <a href="../Item-detail/item-detail.html">
+        <div class="box">
+            <div class="icon">
+                <img width="200" height="200" src="images/OfficeSolution/OfficeSolution-1.jpg" alt="">
+            </div>
+            <label for="">
+                HP LaserJet Pro M404dn Auto Duplex Monochrome Laser Printer
+            </label>
+            <p>
+                $349 
+            </p>
+        </div>
+        </a>
+      </div>
+
+      <div class="col-4">
+        <a href="../Item-detail/item-detail.html">
+        <div class="box">
+            <div class="icon">
+                <img width="200" height="200" src="images/OfficeSolution/OfficeSolution-2.jpg" alt="">
+            </div>
+            <label for="">
+                Barco ClickShare CSE-200 Wireless Presentation System R9861520NA
+            </label>
+            <p>
+                $1500  
+            </p>
+        </div>
+        </a>
+      </div>
+
+      <div class="col-4">
+        <a href="../Item-detail/item-detail.html">
+        <div class="box">
+            <div class="icon">
+                <img width="200" height="200" src="images/OfficeSolution/OfficeSolution-3.jpg" alt="">
+            </div>
+            <label for="">
+                Brother HL-L2300D Monochrome Laser Printer with Duplex Printing
+            </label>
+            <p>
+                $125  
+            </p>
+        </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footClass">
+      <div class="row">
+          <div class="col-3 mobileRow">
+              <h1>Customer Service</h1>
+              <ul>
+                  <li>Help center</li>
+                  <li>Return policy</li>
+                  <li>Privacy and security</li>
+                  <li>Feed back</li>
+              </ul>
+          </div>
+          <div class="col-3 mobileRow">
+              <h1>My Account</h1>
+              <ul>
+                  <li>Login/Register</li>
+                  <li>Order history</li>
+                  <li>Wish list</li>
+                  <li>Email notifications</li>
+              </ul>
+          </div>
+          <div class="col-3 mobileRow">
+              <h1>Company</h1>
+              <ul>
+                  <li>About</li>
+                  <li>Blogs</li>
+                  <li>Careers</li>
+                  <li>Policies</li>
+              </ul>
+          </div>
+          <div class="col-3 mobileRow">
+              <h1>Product</h1>
+              <ul>
+                  <li>Order place</li>
+                  <li>Product supplier</li>
+                  <li>Supplier info</li>
+                  <li>Complaint</li>
+              </ul>
+          </div>
+      </div>
+    </footer>
+  </section>
+
+</body>
+</html>
