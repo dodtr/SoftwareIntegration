@@ -230,6 +230,7 @@ div.box {
     padding: 36px 24px 40px 24px;
     border-radius: 7px;
     background-color: #FFF;
+    color: black;
     box-shadow: 0 0 10px blue;
     text-decoration: none;
 }
