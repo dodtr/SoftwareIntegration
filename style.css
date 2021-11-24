@@ -241,6 +241,7 @@ div.icon {
 }
 
 footer.footClass {
+  flex-direction: column-reverse;
   background-color: #666;
   padding-left: 10%;
 }
