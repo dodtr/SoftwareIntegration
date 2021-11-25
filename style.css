@@ -102,7 +102,7 @@ ul.topnav li {
   font-size: 22px;
   list-style: none;
   float: left;
-  z-index: 0;
+  z-index: 10;
 }
 
 ul.topnav li.topnav-right {
@@ -201,7 +201,7 @@ button.checkoutButtons {
 .col-9 {width: 75%;}
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
-.col-12 {width: 86%;}
+.col-12 {width: 100%;}
 
 * {
   box-sizing: border-box;
