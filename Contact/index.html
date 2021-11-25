@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./Contact.css" />
+    <link rel="stylesheet" href="../themify-icons/themify-icons.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav style="position: fixed">
+      <ul class="topnav" id="dropdownClick">
+        <li class="title">MYCOMPUTER</li>
+        <li><a href="../home.html">Home</a></li>
+        <li><a href="#new">News</a></li>
+        <li><a href="index.html">Contact</a></li>
+        <li><a href="../About/index.html">About</a></li>
+        <li class="topnav-right"><a href="../login.html">user</a></li>
+        <li class="topnav-right"><a href="../cart.html">your cart</a></li>
+        <!--javascript:void(0) make path undefined, therefore make the menu stay when click-->
+        <li class="dropdownIcon">
+          <a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container flex-box">
+      <div class="image-section flex-box">
+        <div class="image-envelope">
+          <div class="hover-point"></div>
+          <div class="hover-point"></div>
+          <div class="hover-point"></div>
+          <div class="hover-point"></div>
+          <div class="hover-point"></div>
+          <div class="hover-point"></div>
+          <div class="hover-point"></div>
+          <div class="hover-point"></div>
+          <div class="box-contents"></div>
+        </div>
+      </div>
+
+      <form class="form">
+        <h2 class="form-title">Get in touch</h2>
+        <input class="form-input" type="text" placeholder="Name" required />
+        <input class="form-input" type="text" placeholder="Email" required />
+        <input class="form-input" type="text" placeholder="Subject" required />
+        <textarea
+          class="form-input"
+          rows="6"
+          placeholder="Message"
+          required
+        ></textarea>
+        <button class="form-btn">
+          Send Email
+          <i class="ti-arrow-right"></i>
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
