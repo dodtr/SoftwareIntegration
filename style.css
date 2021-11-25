@@ -432,6 +432,22 @@ div.rightSide-Col {
   margin-right: 5%;
 }
 
+/*QUANG STYLE*/
+.Qfont{
+  font-family: 'Courgette', cursive;
+}
+
+.QQfont{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.Qbtn:hover{
+  box-shadow: 0 0 20px white;
+  background-color: #1e90ff		;
+}
+
+/*//////////////////////
+
 /*MOBILE*/
 @media screen and (max-width: 680px) {
   ul.topnav li:not(:nth-child(1)) {
