@@ -265,6 +265,18 @@ footer.footClass ul li {
     
 }
 
-
+/*QUANG STYLE*/
+.Qfont{
+    font-family: 'Courgette', cursive;
+  }
+  
+  .QQfont{
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .Qbtn:hover{
+    box-shadow: 0 0 20px white;
+    background-color: #1e90ff		;
+  }
 
     

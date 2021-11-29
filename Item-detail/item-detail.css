@@ -186,6 +186,7 @@ ul li:hover a {
     width: 300px;
     height: 450px;
     border: 1px solid black;
+    margin: 2% auto;
   }
   .rproduct > div > p{
     min-height: 60px;
@@ -206,7 +207,7 @@ ul li:hover a {
 }
 
 /*row and column*/
-.col-3 {width: 25%;}
+.Qcol-3 {width: 25%;}
 
 .row {
   width: 100%;
@@ -261,4 +262,97 @@ a:active {
   color: white;
   background-color: transparent;
   text-decoration: none;
+}
+
+/* MOBILE */
+@media screen and (max-width: 680px) {
+  ul.topnav li:not(:nth-child(1)){
+      display: none;
+  }
+  ul.topnav li.dropdownIcon{
+      display: block;
+      float: right;
+  }
+
+  ul.topnav.responsive li.dropdownIcon {
+      position: absolute;
+      top: 0;
+      right: 0;
+  }
+
+  ul.topnav.responsive {
+      position: relative;
+  }
+  
+  ul.topnav.responsive li{
+      display: inline;
+      float: none;
+  }
+
+  ul.topnav.responsive li a{
+      display: block;
+      text-align: left;
+  }
+
+  h1.section2Header {
+      font-size: 45px;
+  }
+
+  .col-6, .col-4, .col-7 {
+      width: 100%;
+      margin: 0;
+  }
+
+  div.QmobileRow {
+      width: 50%;
+      display: block;
+  }
+  
+  div.box {
+      padding: 5px;
+      display: block;
+  }
+
+  div.left-col, div.rightSide-Col {
+      margin: 15px;
+  }
+
+  input[type="text"] {
+      width: 350px;
+
+  }
+}
+
+/*QUANG STYLE*/
+.Qfont{
+  font-family: 'Courgette', cursive;
+}
+
+.QQfont{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.Qbtn:hover{
+  box-shadow: 0 0 20px white;
+  background-color: #666		;
+}
+
+.card{
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+.card-header{
+  text-align: center;
+}
+
+.price-text{
+  text-align: center;
+  color: coral;
+}
+
+.SHeader{
+  text-align: center;
+  margin-top: 3%;
 }
