@@ -71,12 +71,12 @@
     <div id="product-img">
       <a href="../home.html" style="margin-top: 10%;">
      
-        <img id = "return" src="images/return-home.png">
+        <img id="return" src="images/return-home.png">
      
     </a>
 
-      <p>ASUS UX463FA-AI013T 14" Touch Core i5 Notebook Win 10 Home</p>
-      <img id = "product" src="images/product-img.png">
+      <p id="itemName">ASUS UX463FA-AI013T 14" Touch Core i5 Notebook Win 10 Home</p>
+      <img src="../picture/asusAMD.jfif" id="product">
       
     </div>
 
@@ -90,15 +90,15 @@
             <h4>Details</h4>
           </div>
           <div class="card-body">
-            <h2 class="price-text">$1999</h2>
+            <h2 class="price-text" id="itemPrice">$1999</h2>
             <p> Intel Core i5-10210U Processor 1.6 GHz (6MB Cache, up to 4.2 GHz) </p>
             <p> 14" FHD 1920x1080 16:9 Touch Wide View Display </p> 
             <p> 8GB DDR3 onboard, 512GB M.2 PCIe NVMe SSD </p>
             <p> Intel UHD Graphics 620, HDMI, HD IR Camera, 802.11ax+Bluetooth 5.0 (Dual band) 2 </p>
-            <a href="../addToCart.html">
             <button
               type="button"
               class="btn btn-lg btn-block btn-outline-primary"
+              id="myBtn"
             >
             Add to cart
             </button>
@@ -108,6 +108,23 @@
       </div>
       <div class=" col-lg-4 d-flex justify-content-center"></div>
     </div>
+
+
+    <!--THE MODAL-->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="close">&times;</div>
+        </div>
+        <div class="modal-body">
+          <p>ITEM HAS BEEN ADDED TO CART</p>
+          <p style="font-size: 100px;">&#9989;</p>
+        </div>
+      </div>
+    </div>
+
 
     <!-- <div id="product-detail">
       
@@ -238,6 +255,8 @@
         </div>
     </div>
 </footer>
+<!--JAVASCRIPT CODE-->
+<script src="../saveData.js"></script>
 
 </body>
 </html>
