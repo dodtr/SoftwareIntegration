@@ -205,3 +205,61 @@ footer.footClass ul li {
   font-size: 22px;
   line-height: 1.2;;
 }
+
+@media screen and (max-width: 680px) {
+  ul.topnav li:not(:nth-child(1)){
+      display: none;
+  }
+  ul.topnav li.dropdownIcon{
+      display: block;
+      float: right;
+  }
+
+  ul.topnav.responsive li.dropdownIcon {
+      position: absolute;
+      top: 0;
+      right: 0;
+  }
+
+  ul.topnav.responsive {
+      position: relative;
+  }
+  
+  ul.topnav.responsive li{
+      display: inline;
+      float: none;
+  }
+
+  ul.topnav.responsive li a{
+      display: block;
+      text-align: left;
+  }
+
+  h1.section2Header {
+      font-size: 45px;
+  }
+
+  .col-6, .col-4, .col-7 {
+      width: 100%;
+      margin: 0;
+  }
+
+  div.mobileRow {
+      width: 50%;
+      display: block;
+  }
+  
+  div.box {
+      padding: 5px;
+      display: block;
+  }
+
+  div.left-col, div.rightSide-Col {
+      margin: 15px;
+  }
+
+  input[type="text"] {
+      width: 350px;
+
+  }
+}
