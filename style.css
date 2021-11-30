@@ -446,6 +446,12 @@ div.rightSide-Col {
   background-color: #1e90ff		;
 }
 
+.QtransImage{
+  width: 1000px; 
+  height: 600px;
+  position: relative;
+  display: inline-block;
+}
 
 /*//////////////////////
 
@@ -508,5 +514,10 @@ div.rightSide-Col {
 
   input[type="text"] {
     width: 350px;
+  }
+
+  .QtransImage{
+    width: 450px;
+    height: 300px;
   }
 }
