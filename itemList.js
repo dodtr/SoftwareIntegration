@@ -16,17 +16,31 @@ checkoutButton.addEventListener("click", () => {
 })
 
 function render(src, name, price) {
-    const item = document.createElement("div");
+    const itemContainer = document.createElement("div");
+    itemContainer.className = "cartItem";
     const image = document.createElement("img");
     image.src = src;
-    const text= document.createElement("p");
-    const priceText = document.createElement("p");
-    text.innerText = name;
-    priceText.innerText = "$" + price;
-    item.appendChild(image);
-    item.appendChild(text);
-    item.appendChild(priceText);
-    itemList.appendChild(item);
+    image.className = "cartImage";
+    const innerDiv1 = document.createElement("div");
+    const innerDiv2 = document.createElement("div");
+    const itemName = document.createElement("h3");
+    itemName.innerText = name;
+    itemName.className = "cartHeader"
+    innerDiv1.appendChild(itemName);
+    const cartInnerDiv = document.createElement("div");
+    cartInnerDiv.className = "cartInnerDiv";
+    const itemPrice = document.createElement("h2");
+    itemPrice.innerText = "$" + price;
+    const removeButton = document.createElement("button");
+    removeButton.className = "cartRemoveButton";
+    removeButton.innerText = "REMOVE";
+    cartInnerDiv.appendChild(itemPrice);
+    innerDiv2.appendChild(cartInnerDiv);
+    innerDiv2.appendChild(removeButton);
+    innerDiv1.appendChild(innerDiv2);
+    itemContainer.appendChild(image);
+    itemContainer.appendChild(innerDiv1);
+    itemList.appendChild(itemContainer);
 }
 
 function calcTotalCost() {

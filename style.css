@@ -395,6 +395,39 @@ footer.footClass ul a {
     opacity: 1;
   }
 }
+/*cart page*/
+.cartItemList {
+  padding-top: 20px;
+  padding-right: 530px;
+  padding-left: 50px;
+}
+
+.cartItem {
+  width: 80%;
+  display: flex;
+  height: 250px;
+}
+
+.cartHeader {
+  font-size: 30px;
+}
+
+.cartImage {
+  width: 200px;
+  height: 200px;
+  padding-right: 50px;
+}
+
+.cartInnerDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartRemoveButton {
+  display: block;
+  font-size: 16px;
+  margin-left: auto;
+}
 
 /*Custom style*/
 a:link {
