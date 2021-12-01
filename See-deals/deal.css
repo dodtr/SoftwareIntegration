@@ -24,6 +24,10 @@ nav {
   z-index: 1;
 }
 
+ul li:hover a {
+  padding-left: 15px;
+}
+
 nav ul {
   background-color: #eee;
   overflow: hidden;
@@ -32,8 +36,10 @@ nav ul {
 }
 
 ul.topnav li {
+  font-size: 22px;
   list-style: none;
   float: left;
+  z-index: 10;
 }
 
 ul.topnav li.topnav-right {
@@ -50,9 +56,11 @@ ul.topnav li a {
   color: #666;
 }
 
+
+
 ul.topnav li a:hover {
   background-color: #0080ff;
-  color: white
+  color: white;
 }
 
 ul.topnav li.dropdownIcon {
@@ -70,13 +78,13 @@ ul.topnav li.dropdownIcon {
 }
 
 .sidebar {
+  top: 7px;
   position: fixed;
   left: -230px;
   width: 230px;
   height: 100%;
   background-color: gainsboro;
-  color: green;
-  transition: all .5s ease;/*create transition time in 0.5s*/
+  transition: all 0.5s ease; /*create transition time in 0.5s*/
 }
 
 .sidebar header {
@@ -99,14 +107,11 @@ ul.topnav li.dropdownIcon {
   color: rgb(39, 88, 248);
   padding-left: 5px;
   box-sizing: border-box;
-  border-top: 1px solid rbga(255, 255, 255, .1);
+  border-top: 1px solid rbga(255, 255, 255, 0.1);
   border-bottom: 1px solid black;
-  transition: .4s;/*make the button float when hover*/
+  transition: 0.4s; /*make the button float when hover*/
 }
 
-ul li:hover a {
-  padding-left: 20px;
-}
 /* end */
 
 /* Seperator */
@@ -203,7 +208,36 @@ footer.footClass ul {
 footer.footClass ul li {
   color: white;
   font-size: 22px;
-  line-height: 1.2;;
+  line-height: 1.2;
+}
+
+footer.footClass ul a {
+  transition: all 0.5s ease;
+}
+
+/*LINK COLOR*/
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 680px) {

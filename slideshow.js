@@ -11,6 +11,14 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
+if(sessionStorage.getItem("orderList")) {
+    console.log("existed");
+}else {
+    console.log("not existed");
+    const order = [];
+    sessionStorage.setItem("orderList", JSON.stringify(order));
+}
+
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");

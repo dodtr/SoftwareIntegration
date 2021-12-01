@@ -43,7 +43,7 @@ nav ul {
   top: 7px;
   position: fixed;
   left: -230px;
-  width: 220px;
+  width: 230px;
   height: 100%;
   background-color: gainsboro;
   transition: all 0.5s ease; /*create transition time in 0.5s*/
@@ -253,6 +253,7 @@ div.icon {
     margin-bottom: 30px;
 }
 
+/*FOOTER*/
 footer.footClass {
   background-color: #666;
   padding-left: 10%;
@@ -478,11 +479,13 @@ div.rightSide-Col {
   ul.topnav.responsive li {
     display: inline;
     float: none;
+    z-index: 10;
   }
 
   ul.topnav.responsive li a {
     display: block;
     text-align: left;
+    z-index: 10;
   }
 
   h1.section2Header {
