@@ -5,7 +5,7 @@ nav, header, footer {
 section {
     transition: all 0.5s ease;
     text-align: center;
-    padding-top: 9%;
+    padding-top: 5%;
 }
 
 body {
@@ -251,7 +251,7 @@ footer.footClass ul li {
 
 .login-table{
     background-color: #d6ebfe;
-    padding: 2% 3%;
+    padding: 2% 10%;
     margin: 5% 25%;
     text-align: center;
 }

@@ -12,6 +12,10 @@ nav {
   margin: 0;
 }
 
+ul li:hover a {
+  padding-left: 15px;
+}
+
 nav ul {
   background-color: #eee;
   overflow: hidden;
@@ -93,9 +97,6 @@ ul.topnav li.dropdownIcon {
   transition: .4s;/*make the button float when hover*/
 }
 
-ul li:hover a {
-  padding-left: 20px;
-}
 /* end */
 
 /* product images */
@@ -217,6 +218,7 @@ ul li:hover a {
 }
 
 /*footer*/
+
 footer.footClass {
   background-color: #666;
   padding-left: 10%;
@@ -236,7 +238,11 @@ footer.footClass ul {
 footer.footClass ul li {
   color: white;
   font-size: 22px;
-  line-height: 1.2;;
+  line-height: 1.2;
+}
+
+footer.footClass ul a {
+  transition: all 0.5s ease;
 }
 
 /*Link color*/
