@@ -5,6 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-- GGFontCSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <!-- icon -->
     <link rel="icon" href="picture/icon.png">
     <!---->
@@ -40,54 +51,13 @@
         </ul>
       </div>
     <section id="sect" style="padding-top: 50px;">
-
-    <div id="itemList">
-    </div>
-    
+    <!--SHOW LIST OF ITEMS-->
     
     <div style="display: flex;">
-        <div id="itemList">
-            <!-- first item -->
-            <div style = "width:80%">
-                <div style="display: flex">
-                    <!-- image -->
-                    <div>
-                        <img width="300" height="220" src="picture/amdpicture.jpg" alt="" />
-                    </div>
-
-                    <div>
-                        <h3>AMD Ryzen 5 5600X - Ryzen 5 5000 Series Vermeer (Zen 3) 6-Core 3.7 GHz  Socket AM4 65W Desktop Processor - 100-100000065BOX</h3>
-                        <div style="display: flex; justify-content: space-between">
-                            <input></input>
-                            <h2>309.00$</h2>
-                        </div>
-                        <button style = "display: block; font-size: 16px; margin-left:auto">Remove</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- second item -->
-            <div style = "width:80%">
-                <div style="display: flex">
-                    <!-- image -->
-                    <div>
-                        <img width="300" height="220" src="picture/desktopharddrive.jpg" alt="" />
-                    </div>
-
-                    <div>
-                        <h3>WD Elements 12TB USB 3.0 Desktop Hard Drive Black WDBWLG0120HBK-NESN</h3>
-                        <div style="display: flex; justify-content: space-between">
-                            <input></input>
-                            <h2>$499.98</h2>
-                        </div>
-                        <button style = "display: block; font-size: 16px; margin-left:auto">Remove</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div id="itemList" class="cartItemList"></div>
 
         <!-- summary -->
-        <div style = "width:39%">
+        <div style = "width:25%;">
             <h2>Summary</h2>
             <div style="display: flex; justify-content: space-between">
                 <p>Item(s)</p>
@@ -106,7 +76,7 @@
                 <h2 id="totalCost">$369.98</h2>
             </div>
             <div style="float:none;">
-            <button id="checkoutButton">checkout</button>
+            <button id="checkoutButton"><a href="https://www.paypal.com/vn/signin" target="_blank">checkout</a></button>
             </div>
         </div>
     </div>
