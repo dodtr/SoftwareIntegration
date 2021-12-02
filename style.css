@@ -117,6 +117,7 @@ ul.topnav li a {
   padding: 14px;
   text-transform: uppercase;
   color: #666;
+  z-index: 10;
 }
 
 ul.topnav li a:hover {
